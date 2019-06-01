@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz game</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha3
+  56-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+      crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</head>
+    <body>
+        <h1 id="welcome">Welcome to the quiz!</h1>
+        <h3><b><u>Your answer should start with a capital letter!</u></b></h3><br>
+        <h3><p class="question" id="firstQuestion">What is the capital city of Poland?</p></h3>
+        <input type="textbox" class="answer" id="firstAnswer"><br><br>
+
+        <h3><p class="question" id="secondQuestion">What is the capital city of England?</p></h3>
+        <input type='textbox' class='answer' id='secondAnswer'><br><br>
+
+        <h3><p class='question' id='thirdQuestion'>What is the capital city of Russia?</p></h3>
+        <input type='textbox' class='answer' id='thirdAnswer'><br><br>
+
+        <h3><p class = "question">What is the tallest building in the world?</p></h3>
+        <input type='textbox' class='answer' id='fourthAnswer'><br><br>
+
+        <h3><p class='question'>What country has the most population?</p></h3>
+        <input type='textbox' class='answer' id='fifthAnswer'>
+
+        <span id='checkAnswers'><h2>Check answers:</h2></span><button id='check'>Click!</button>
+        <h2 id="points">Points: 0</h2>
+
+    </body>
